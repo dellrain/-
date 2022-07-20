@@ -1,0 +1,644 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit, font-weight: 400;
+}
+
+
+/*  */
+body {
+    background: #EAFFEC;
+}
+
+.logo {
+    background: url(../img/index/KittenLogo.png) no-repeat;
+    height: 194px;
+    width: 585px;
+    left: 667.5px;
+    top: 37px;
+    position: absolute;
+}
+
+.logo-left {
+    background: url(../img/index/Left.png) no-repeat;
+    height: 268px;
+    width: 546px;
+    position: absolute;
+    left: 147px;
+    top: 23px;
+}
+
+.logo-right {
+    background: url(../img/index/Right.png) no-repeat;
+    height: 268px;
+    width: 546px;
+    position: absolute;
+    left: 1238px;
+    top: 23px;
+}
+
+.logo-right-info {
+    background: url(../img/index/Right.png) no-repeat;
+    height: 268px;
+    width: 546px;
+    position: absolute;
+    left: 1106px;
+    top: 156px;
+}
+
+.stickers {
+    position: absolute;
+    width: 768px;
+    height: 92px;
+    left: 912px;
+    top: 459px;
+    background: url("../img/index/stickers.png") no-repeat;
+    z-index: 100;
+}
+
+.menu {
+    width: 1108px;
+    height: 126px;
+    background: #FBCCE4;
+    left: 555px;
+    top: 379px;
+    position: absolute;
+    font-family: 'KB Astrolyte';
+    color: #F44378;
+    font-size: 32px;
+    padding: 30px 77px 0 77px;
+    justify-content: center;
+    word-spacing: 40px;
+}
+
+.menu a:first-child {
+    word-spacing: 5px;
+}
+
+
+.menu a:visited {
+    color: #F44378;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    word-spacing: 40px;
+}
+
+.menu a:hover {
+    color: #F44378;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #fff,
+      0 0 82px #fff,
+      0 0 92px #fff,
+      0 0 102px #fff,
+      0 0 151px #fff;
+}
+
+.left-menu {
+    border: solid 5px #FFA8F2;
+    width: 349px;
+    height: 672px;
+    left: 71px;
+    top: 379px;
+    position: absolute;
+}
+
+.left-menu-title {
+    font-family: "Terminator Genisys";
+    text-align: center;
+    color: #F44378;
+    font-size: 28px;
+    padding: 161px 30px 0 30px;
+}
+
+.list {
+    margin: 0 30px 0 30px;
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 30px;
+    color: #FF86F0;
+}
+
+.list a:visited {
+    color: #FF86F0;
+}
+
+.odin {
+    margin-top: 62px;
+}
+
+.dva,
+.tri,
+.chetire {
+    margin-top: 30px;
+}
+
+.odin span,
+.dva span,
+.tri span,
+.chetire span {
+    background: url("../img/index/p-icon.png") left no-repeat;
+    padding-left: 30px;
+}
+
+.hello-kitty {
+    background: url("../img/index/HelloKitty.png");
+    width: 218px;
+    height: 273px;
+    left: 309px;
+    top: 285px;
+    position: absolute;
+    z-index: 1;
+}
+
+.cat {
+    width: 563px;
+    height: 419px;
+    position: absolute;
+    left: 1014px;
+    top: 605px;
+}
+
+.click-blocks {
+    position: absolute;
+    left: 469px;
+    top: 759px;
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 40px;
+    color: #EA93E5;
+
+}
+
+.click-blocks a:visited {
+    color: #EA93E5;
+}
+
+.click-blocks a:hover {
+    color: #0BBC87;
+}
+
+.click-blocks div {
+    margin: 27px 49px 0 49px;
+}
+
+h1, h2 {
+    font-family: "Terminator Genisys";
+    margin-top: 18px;
+    text-align: center;
+    color: #F44378;
+    font-size: 85px;
+    font-weight: 400;
+}
+
+
+.search {
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 45px;
+    color: #FD86DE;
+    margin: 33px 0 0 55px;
+}
+
+.search-input {
+    width: 334px;
+    height: 55px;
+    border: solid #FD54AB;
+    padding: 5px 19px;
+    color: #0BBC87;
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 40px;
+}
+
+::placeholder {
+    color: #0BBC87;
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 40px;
+    position: absolute;
+    opacity: 85%;
+}
+
+.search-place {
+    width: 605px;
+    margin-left: 55px;
+    margin-top: 29px;
+    display: flex;
+}
+
+.search-button button {
+    margin-left: 36px;
+    height: 55px;
+    width: 145px;
+    background-color: #FD54AB;
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 35px;
+    color: #FFF4FC;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.search-button button:hover {
+    box-shadow:
+ 0px 1px 1px rgba(255,255,255,0.8) inset,
+ 1px 1px 5px rgba(0,0,0,0.4);
+}
+
+.search-button button:active {
+    position:relative;
+    top:1px;
+    background:#0BBC87;
+    box-shadow:1px 1px 2px rgba(0,0,0,0.4) inset;
+    border-color: #a9db80;
+}
+
+.row {
+    display: flex;
+
+}
+
+.image {
+    position: absolute;
+    left: 605px;
+    top: 197px;
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features-block span {
+    margin-right: 72px;
+    margin-bottom: 36px;
+    display: grid;
+    justify-items: center;
+}
+
+.features-block span img {
+    width: 200px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.features-block span p {
+    font-family: "Fifaks 1.0 dev1";
+    color: #F44378;
+    font-size: 45px;
+}
+
+.features-block span img:hover {
+    transform: scale(1.1);
+}
+
+.check {
+    background: url(../img/takeKitten/check.png);
+    width: 427px;
+    height: 708px;
+    position: absolute;
+    left: 87px;
+    top: 334px;
+    color: #F44378;
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 40px;
+}
+
+.check p {
+    position: inherit;
+}
+
+.sex {
+    left: 34px;
+    top: 89px;
+}
+
+.check .line1 {
+    background-image: url("../img/takeKitten/underline.png");
+    width: 386px;
+    height: 40px;
+    position: inherit;
+    left: 21px;
+    top: 114px;
+}
+
+.mrcat {
+    cursor: pointer;
+    left: 34px;
+    top: 147px;
+}
+
+.mrcat-value {
+    cursor: pointer;
+    left: 338px;
+    top: 147px;
+}
+
+.kitty-value {
+    cursor: pointer;
+    left: 338px;
+    top: 190px;
+}
+
+.kitty {
+    cursor: pointer;
+    left: 34px;
+    top: 190px;
+}
+
+.check .line2 {
+    background-image: url("../img/takeKitten/underline.png");
+    width: 386px;
+    height: 40px;
+    position: inherit;
+    left: 21px;
+    top: 225px;
+}
+
+.color {
+    left: 34px;
+    top: 261px;
+}
+
+.check .line3 {
+    background-image: url("../img/takeKitten/underline.png");
+    width: 386px;
+    height: 40px;
+    position: inherit;
+    left: 21px;
+    top: 291px;
+}
+
+.white {
+    cursor: pointer;
+    left: 34px;
+    top: 331px;
+}
+
+.white-value {
+    cursor: pointer;
+    left: 360px;
+    top: 331px;
+}
+
+.red {
+    cursor: pointer;
+    left: 34px;
+    top: 374px;
+}
+
+.red-value {
+    cursor: pointer;
+    left: 338px;
+    top: 374px;
+}
+
+.tabby {
+    cursor: pointer;
+    left: 34px;
+    top: 417px;
+}
+
+.tabby-value {
+    cursor: pointer;
+    left: 360px;
+    top: 417px;
+}
+
+.tricolor {
+    cursor: pointer;
+    left: 34px;
+    top: 460px;
+}
+
+.tricolr-value {
+    cursor: pointer;
+    left: 360px;
+    top: 460px;
+}
+
+.black {
+    cursor: pointer;
+    left: 34px;
+    top: 503px;
+}
+
+.black-value {
+    cursor: pointer;
+    left: 360px;
+    top: 503px;
+}
+
+.turtle {
+    cursor: pointer;
+    left: 34px;
+    top: 547px;
+}
+
+.turtle-value {
+    cursor: pointer;
+    left: 360px;
+    top: 547px;
+}
+
+
+.mrcat:hover {
+    color: #0BBC87;
+}
+
+.kitty:hover {
+    color: #0BBC87;
+}
+
+.mrcat-value:hover {
+    color: #0BBC87;
+}
+
+.kitty-value:hover {
+    color: #0BBC87;
+}
+
+.white:hover {
+    color: #0BBC87;
+}
+
+.white-value:hover {
+    color: #0BBC87;
+}
+
+.red:hover {
+    color: #0BBC87;
+}
+
+.red-value:hover {
+    color: #0BBC87;
+}
+
+.tabby:hover {
+    color: #0BBC87;
+}
+
+.tabby-value:hover {
+    color: #0BBC87;
+}
+
+.tricolor:hover {
+    color: #0BBC87;
+}
+
+.tricolr-value:hover {
+    color: #0BBC87;
+}
+
+.black:hover {
+    color: #0BBC87;
+}
+
+.black-value:hover {
+    color: #0BBC87;
+}
+
+.turtle:hover {
+    color: #0BBC87;
+}
+
+.turtle-value:hover {
+    color: #0BBC87;
+}
+
+.catpaws {
+    background-image: url(../img/info/kittenPaws.png);
+    width: 489px;
+    height: 307px;
+    position: absolute;
+    left: 51px;
+    top: 172px;
+}
+
+.menu-info {
+    position: absolute;
+    left: 591px;
+    top: 172px;
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 40px;
+}
+
+.menu-info a {
+    color: #1EBC86;
+
+}
+
+.menu-info a:visited {
+    color: #1EBC86;
+}
+
+.menu-info a:hover {
+    color: #EFA0FE;
+}
+
+.contacts {
+    position: absolute;
+    left: 87.87px;
+    top: 613px;
+}
+
+.contacts a {
+    width: 600px;
+    position: inherit;
+    margin: 32.2px 0 0 19.96px;
+    font-family: "Fifaks 1.0 dev1";
+    font-size: 40px;
+    color: #FD86DE;
+}
+
+.contacts a:hover {
+    color: #1eaabc;
+}
+
+.contacts div {
+    margin-top: 46.76px;
+}
+
+.kittenInHouse {
+    background: url("../img/info/kittenInHouse.png");
+    position: absolute;
+    width: 610px;
+    height: 438px;
+    left: 1060px;
+    top: 616px;
+}
+
